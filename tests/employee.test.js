@@ -1,48 +1,48 @@
-cconst Employee = require('../lib/employee');
+const Employee = require('../lib/employee');
 
-test('Can instantiate Employee instance', () => {
+test('Will instantiate Employee instance', () => {
   const emp = new Employee();
-  expect(typeof e).toBe('object');
+  expect(typeof emp).toBe('object');
 });
 
-test('Can set name via constructor arguments', () => {
+test('Will set name using constructor', () => {
   const name = 'Melissa';
   const emp = new Employee(name);
-  expect(e.name).toBe(name);
+  expect(emp.name).toBe(name);
 });
 
-test('Can set id via constructor argument', () => {
+test('Will set id using constructor', () => {
   const testValue = 100;
   const emp = new Employee('Bubba', testValue);
   expect(e.id).toBe(testValue);
 });
 
-test('Can set email via constructor argument', () => {
+test('Will set email using constructor argument', () => {
   const testValue = 'test@test.com';
   const emp = new Employee('Bubba', 1, testValue);
-  expect(e.email).toBe(testValue);
+  expect(emp.email).toBe(testValue);
 });
 
-test('Can get name via getName()', () => {
+test('Will get name using getName()', () => {
   const testValue = 'Melissa';
   const emp = new Employee(testValue);
-  expect(e.getName()).toBe(testValue);
+  expect(emp.getName()).toBe(testValue);
 });
 
-test('Can get id via getId()', () => {
+test('Will get id using getId()', () => {
   const testValue = 100;
   const emp = new Employee('Jennifer', testValue);
-  expect(e.getId()).toBe(testValue);
+  expect(emp.getId()).toBe(testValue);
 });
 
-test('Can get email via getEmail()', () => {
+test('Can get email using getEmail()', () => {
   const testValue = 'test@test.com';
   const emp = new Employee('Marissa', 1, testValue);
-  expect(e.getEmail()).toBe(testValue);
+  expect(emp.getEmail()).toBe(testValue);
 });
 
 test('getRole() should return "Employee"', () => {
   const testValue = 'Employee';
   const emp = new Employee('Craig', 1, 'test@test.com');
-  expect(e.getRole()).toBe(testValue);
+  expect(emp.getRole()).toBe(testValue);
 });
