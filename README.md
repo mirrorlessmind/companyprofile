@@ -19,7 +19,7 @@ Easy UI for a manager to quickly review their team's information, saving time by
 This is a software engineering team generator command line application. The application will prompt the user for information about the team manager and then information about the team members. When the user has completed the form, the application will create an HTML file that displays a team roster based on the information provided by the user. 
 
 ## Link to Video:
-Cigi's Walkthrough "https://youtu.be/jxA5ojfMh_8"
+Cigi's Walkthrough "https://vimeo.com/538257370/1be3a0b5e6"
 
 ## Contributing Partners ✨
 TAs, tutorials
