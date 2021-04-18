@@ -14,3 +14,13 @@ Easy UI for a manager to quickly review their team's information, saving time by
 
 ## Languages & Technology Involved
 Featuring: Node.js, ES6+,CSS, npm modules reuirunfDependencies
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://codepen.io/mirrorlessmind" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codepen.svg" alt="mirrorlessmind" height="30" width="40" /></a>
+<a href="https://twitter.com/mirrorlessmind" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="mirrorlessmind" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/mirrorlessmind" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="mirrorlessmind" height="30" width="40" /></a>
+<a href="https://stackoverflow.com/users/mirrorlessmind" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg" alt="mirrorlessmind" height="30" width="40" /></a>
+<a href="https://fb.com/mirrorlessmind" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="mirrorlessmind" height="30" width="40" /></a>
+<a href="https://www.youtube.com/c/mirrorlessmind" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="mirrorlessmind" height="30" width="40" /></a>
+</p>
