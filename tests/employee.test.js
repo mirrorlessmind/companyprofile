@@ -1,4 +1,4 @@
-const Employee = require('../lib/employee');
+cconst Employee = require('../lib/employee');
 
 test('Can instantiate Employee instance', () => {
   const emp = new Employee();
@@ -24,25 +24,25 @@ test('Can set email via constructor argument', () => {
 });
 
 test('Can get name via getName()', () => {
-  const testValue = 'Alice';
+  const testValue = 'Melissa';
   const emp = new Employee(testValue);
   expect(e.getName()).toBe(testValue);
 });
 
 test('Can get id via getId()', () => {
   const testValue = 100;
-  const emp = new Employee('Bubba', testValue);
+  const emp = new Employee('Jennifer', testValue);
   expect(e.getId()).toBe(testValue);
 });
 
 test('Can get email via getEmail()', () => {
   const testValue = 'test@test.com';
-  const emp = new Employee('Bubba', 1, testValue);
+  const emp = new Employee('Marissa', 1, testValue);
   expect(e.getEmail()).toBe(testValue);
 });
 
 test('getRole() should return "Employee"', () => {
   const testValue = 'Employee';
-  const emp = new Employee('Alice', 1, 'test@test.com');
+  const emp = new Employee('Craig', 1, 'test@test.com');
   expect(e.getRole()).toBe(testValue);
 });
