@@ -33,7 +33,7 @@ Please run npm install, inquirer, path to use this app
 This application is covered by the MIT license. Please refer to documention for further information.
 
 ## Test
-[<img src=<a href>/output/app2.jpg>ScreenShot</a>]
+![Demo Image](app2.jpg?raw=true "Demo Image")
 
 ## What do I do if I have an issue? 😔
 Contact Us <br />
