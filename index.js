@@ -1,25 +1,24 @@
-// npm packages
+// required packages
 const inquirer = require('inquirer');
 const fs = require('fs');
 const path = require('path');
 
-// Sent to output folder
+// path for the generated HTML
 const outputPath = path.resolve(__dirname, 'output', 'team.html');
 
-// Classes
+// Classes for the cards
 const Manager = require('./lib/manager');
 const Engineer = require('./lib/engineer');
 const Intern = require('./lib/intern');
-const mainHTML = require('./templates/mainHTML');
+const indexHTML = require('./html/indexHtml');
 
 // Cards
-const managerCard = require('./templates/managerhtml');
-const internCard = require('./templates/internhtml');
-const engineerCard = require('./templates/engineerhtml');
+const managerCard = require('./html/managerhtml');
+const internCard = require('./html/internhtml');
+const engineerCard = require('./html/engineerhtml');
 
 const entireTeam = [];
 
-// Initial Prompt
 const mainApp = () => {
   console.log('Let Us Build Your Team');
   inquirer
@@ -30,7 +29,7 @@ const mainApp = () => {
         message: 'What is your Managers name?',
         validate(value) {
           const valid = isNaN(value);
-          return valid || 'Please enter a name.';
+          return valid || 'Enter a name.';
         },
       },
       {
@@ -39,7 +38,7 @@ const mainApp = () => {
         message: 'What is your Managers email?',
         validate(value) {
           const valid = isNaN(value);
-          return valid || 'Please enter an email.';
+          return valid || 'Enter an email.';
         },
       },
       {
@@ -48,7 +47,7 @@ const mainApp = () => {
         message: 'What is the Employee ID?',
         validate(value) {
           const valid = !isNaN(parseFloat(value));
-          return valid || 'Please enter a number.';
+          return valid || 'Enter a number.';
         },
       },
       {
@@ -57,7 +56,7 @@ const mainApp = () => {
         message: 'What is your managers office number?',
         validate(value) {
           const valid = !isNaN(parseFloat(value));
-          return valid || 'Please enter a number.';
+          return valid || 'Enter a number.';
         },
       },
     ])
@@ -69,7 +68,7 @@ const mainApp = () => {
         response.officeNumber
       );
       const managerCardHtml = managerCard(manager);
-      fullTeam.push(managerCardHtml);
+      entireTeam.push(managerCardHtml);
       addTeamMembers();
     });
 
@@ -98,7 +97,7 @@ const mainApp = () => {
             promptIntern();
             break;
           }
-          case "I'm all done. Let's see my team!": {
+          case "That's everyone let's see our team!": {
             buildTeam();
             break;
           }
@@ -108,7 +107,7 @@ const mainApp = () => {
 
   // Create an engineer
   const promptEngineer = () => {
-    console.log('Please enter engineer info');
+    console.log('Enter engineer info');
     inquirer
       .prompt([
         {
@@ -117,7 +116,7 @@ const mainApp = () => {
           message: 'Enter engineers name:',
           validate(value) {
             const valid = isNaN(value);
-            return valid || 'Please enter a name.';
+            return valid || 'Enter a name.';
           },
         },
         {
@@ -156,14 +155,14 @@ const mainApp = () => {
           response.engineerGithub
         );
         const engineerCardHtml = engineerCard(engineer);
-        fullTeam.push(engineerCardHtml);
+        entireTeam.push(engineerCardHtml);
         addTeamMembers();
       });
   };
 
   // Create an intern
   const promptIntern = () => {
-    console.log('Please enter intern info');
+    console.log('Enter your interns info');
     inquirer
       .prompt([
         {
@@ -221,7 +220,7 @@ const mainApp = () => {
   function buildTeam() {
     // write team members to a html file
     const finalTeam = entireTeam.join('');
-    fs.writeFileSync(outputPath, mainHTML(finalTeam), 'utf-8');
+    fs.writeFileSync(outputPath, teamHTML(finalTeam), 'utf-8');
   }
 };
 
