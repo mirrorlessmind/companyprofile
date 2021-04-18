@@ -1,26 +1,42 @@
 # Company Profile OOP App Template Engine 
 
-## Objective
-
-Build a software engineering team generator command line application. The application will prompt the user for information about the team manager and then information about the team members. The user can input any number of team members, and they may be a mix of engineers and interns. This assignment must also pass all unit tests. When the user has completed building the team, the application will create an HTML file that displays a nicely formatted team roster based on the information provided by the user. 
-
-
-
-## App Design Purpose  
-
-Easy UI for a manager to quickly review their team's information, saving time by having the employee input the information.
-
-
-
 ## Languages & Technology Involved
 Featuring: Node.js, ES6+,CSS, npm modules reuirunfDependencies
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://codepen.io/mirrorlessmind" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codepen.svg" alt="mirrorlessmind" height="30" width="40" /></a>
-<a href="https://twitter.com/mirrorlessmind" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="mirrorlessmind" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/mirrorlessmind" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="mirrorlessmind" height="30" width="40" /></a>
-<a href="https://stackoverflow.com/users/mirrorlessmind" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg" alt="mirrorlessmind" height="30" width="40" /></a>
-<a href="https://fb.com/mirrorlessmind" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="mirrorlessmind" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/mirrorlessmind" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="mirrorlessmind" height="30" width="40" /></a>
-</p>
+
+## Table of Contents
+- [Use](#use)
+- [Description](#description)
+- [Contributing](#contributing)
+- [Installation](#installation)
+- [License](#license)
+- [Tests](#tests)
+- [Questions](#questions)
+## Usage
+Easy UI for a manager to quickly review their team's information, saving time by having the employee input the information.
+
+## Description 🔥
+This is a software engineering team generator command line application. The application will prompt the user for information about the team manager and then information about the team members. When the user has completed the form, the application will create an HTML file that displays a team roster based on the information provided by the user. 
+
+## Link to Video:
+Cigi's Walkthrough "https://youtu.be/jxA5ojfMh_8"
+
+## Contributing Partners ✨
+TAs, tutorials
+
+## Installation 💻
+Please run npm install, inquirer, path to use this app
+
+## License 😎
+"https://opensource.org/licenses/MIT"
+
+This application is covered by the MIT license. Please refer to documention for further information.
+
+## Test
+[<img src=<a href>/output/app2.jpg>ScreenShot</a>]
+
+## What do I do if I have an issue? 😔
+Contact Us <br />
+
+
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='30'>](https://github.com/mirrorlessmind)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='30'>](https://www.linkedin.com/in/mirrorlessmind/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='30'>](www.mirrorlessmind.com)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg' alt='twitter' height='30'>](mirrorlessmind)  
