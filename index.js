@@ -59,8 +59,8 @@ const mainApp = () => {
     .then(response => {
       const manager = new Manager(
         response.managerName,
-        response.managerId,
         response.managerEmail,
+        response.managerId,
         response.officeNumber
       );
       const managerCardHtml = managerCard(manager);
@@ -146,11 +146,11 @@ const mainApp = () => {
       .then(response => {
         const engineer = new Engineer(
           response.engineerName,
-          response.engineerId,
           response.engineerEmail,
+          response.engineerId,
           response.engineerGithub
         );
-        const engineerCardHtml = engineerCard(engineer);
+        const eng response.engineerEmail,engineerCardHtml = engineerCard(engineer);
         entireTeam.push(engineerCardHtml);
         addTeamMembers();
       });
@@ -201,11 +201,11 @@ const mainApp = () => {
       .then(response => {
         const intern = new Intern(
           response.internName,
-          response.internId,
           response.internEmail,
+          response.internId,
           response.internSchool
         );
-        const internCardHtml = internCard(intern);
+        const intresponse.internEmail,internCardHtml = internCard(intern);
 
         entireTeam.push(internCardHtml);
         addTeamMembers();
