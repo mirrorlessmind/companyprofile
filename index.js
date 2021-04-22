@@ -2,13 +2,13 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const path = require('path')
-const outputPath = path.resolve(__dirname, 'output', 'team.html');
+const outputPath = path.resolve(__dirname, 'output', 'myteam.html');
 
 // These arev Classes for the cards & cards
 const Manager = require('./lib/manager');
 const Engineer = require('./lib/engineer');
 const Intern = require('./lib/intern');
-const indexHTML = require('./html/indexHtml');
+const indexHTML = require('./html/indexhtml');
 const managerCard = require('./html/managerhtml');
 const internCard = require('./html/internhtml');
 const engineerCard = require('./html/engineerhtml');
