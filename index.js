@@ -1,18 +1,14 @@
-// required packages
+// These are the Required packages
 const inquirer = require('inquirer');
 const fs = require('fs');
-const path = require('path');
-
-// path for the generated HTML
+const path = require('path')
 const outputPath = path.resolve(__dirname, 'output', 'team.html');
 
-// Classes for the cards
+// These arev Classes for the cards & cards
 const Manager = require('./lib/manager');
 const Engineer = require('./lib/engineer');
 const Intern = require('./lib/intern');
 const indexHTML = require('./html/indexHtml');
-
-// Cards
 const managerCard = require('./html/managerhtml');
 const internCard = require('./html/internhtml');
 const engineerCard = require('./html/engineerhtml');
@@ -113,7 +109,7 @@ const mainApp = () => {
         {
           type: 'input',
           name: 'engineerName',
-          message: 'Enter engineers name:',
+          message: 'Enter Engineers name:',
           validate(value) {
             const valid = isNaN(value);
             return valid || 'Enter a name.';
@@ -220,7 +216,7 @@ const mainApp = () => {
   function buildTeam() {
     // write team members to a html file
     const finalTeam = entireTeam.join('');
-    fs.writeFileSync(outputPath, teamHTML(finalTeam), 'utf-8');
+    fs.writeFileSync(outputPath, indexHTML(finalTeam), 'utf-8');
   }
 };
 
