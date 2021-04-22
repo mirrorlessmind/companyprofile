@@ -47,5 +47,5 @@ function indexHTML(data) {
       </html>
   `;
   }
-  // This to exportthe  mainRender
+  // This to export to thema in export
   module.exports = indexHTML;
