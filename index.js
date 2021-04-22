@@ -8,7 +8,7 @@ const outputPath = path.resolve(__dirname, 'output', 'myteam.html');
 const Manager = require('./lib/manager');
 const Engineer = require('./lib/engineer');
 const Intern = require('./lib/intern');
-const indexHTML = require('./html/indexhtml');
+const indexHTML = require('./html/indexHTML');
 const managerCard = require('./html/managerhtml');
 const internCard = require('./html/internhtml');
 const engineerCard = require('./html/engineerhtml');
@@ -212,7 +212,7 @@ const mainApp = () => {
       });
   };
 
-  // Create an Html Document
+  // Create the the Team List HTML
   function buildTeam() {
     // write team members to a html file
     const finalTeam = entireTeam.join('');
