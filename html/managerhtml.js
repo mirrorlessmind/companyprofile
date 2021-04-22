@@ -1,7 +1,7 @@
 function managerCard(data) {
     return `
       <div class="card employee-card m-2 col-3">
-      <script src="https://kit.fontawesome.com/7b4d2fea99.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/fc7567fd01.js" crossorigin="anonymous"></script>
       <div class="card-header">
           <h2 class="card-title">${data.name}</h2>
           <h3 class="card-title"><i class="fas fa-chalkboard-teacher"></i></i>Manager</h3>
