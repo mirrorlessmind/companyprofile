@@ -1,7 +1,7 @@
 # Company Profile OOP App Template Engine 
 
 ## Languages & Technology Involved
-Featuring: Node.js, ES6+,CSS, npm modules reuirunfDependencies
+Featuring: Node.js, ES6+,CSS, npm modules required Dependencies
 
 
 ## Table of Contents
