@@ -8,7 +8,7 @@ function indexHTML(data) {
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <meta http-equiv="X-UA-Compatible" content="ie=edge" />
           <title>My Team</title>
-          <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-yrfSO0DBjS56u5M+SjWTyAHujrkiYVtRYh2dtB3yLQtUz3bodOeialO59u5lUCFF" crossorigin="anonymous">
+          <link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.0/cerulean/bootstrap.css" rel="stylesheet" crossorigin="anonymous">
           <link rel="stylesheet" href="style.css">
           <script src="https://kit.fontawesome.com/fc7567fd01.js" crossorigin="anonymous"></script>
           <style>
