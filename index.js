@@ -150,7 +150,8 @@ const mainApp = () => {
           response.engineerId,
           response.engineerGithub
         );
-        const eng response.engineerEmail,engineerCardHtml = engineerCard(engineer);
+        const eng response.engineerEmail, engineerCardHtml = engineerCard(engineer);
+      
         entireTeam.push(engineerCardHtml);
         addTeamMembers();
       });
@@ -205,7 +206,7 @@ const mainApp = () => {
           response.internId,
           response.internSchool
         );
-        const intresponse.internEmail,internCardHtml = internCard(intern);
+        const int response.internEmail,internCardHtml = internCard(intern);
 
         entireTeam.push(internCardHtml);
         addTeamMembers();
