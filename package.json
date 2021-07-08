@@ -2,7 +2,7 @@
   "name": "company-1",
   "version": "1.0.0",
   "description": "OOP Template Engine",
-  "main": "myapp.js",
+  "main": "app.js",
   "directories": {
     "lib": "lib",
     "test": "test"

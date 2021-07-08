@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path')
 const outputPath = path.resolve(__dirname, 'output', 'myteam.html');
 
-// These arev Classes for the cards & cards
+// These are Classes for the cards 
 const Manager = require('./lib/manager');
 const Engineer = require('./lib/engineer');
 const Intern = require('./lib/intern');
@@ -79,7 +79,7 @@ const mainApp = () => {
           choices: [
             'Add an Engineer',
             'Add an Intern',
-            "I'm all done. Let's see my team!",
+            "Done. Let's check out my team!",
           ],
         },
       ])
@@ -150,8 +150,7 @@ const mainApp = () => {
           response.engineerId,
           response.engineerGithub
         );
-        const eng response.engineerEmail, engineerCardHtml = engineerCard(engineer);
-      
+        const engineerCardHtml = engineerCard(engineer);
         entireTeam.push(engineerCardHtml);
         addTeamMembers();
       });
@@ -206,7 +205,7 @@ const mainApp = () => {
           response.internId,
           response.internSchool
         );
-        const int response.internEmail,internCardHtml = internCard(intern);
+        const internCardHtml = internCard(intern);
 
         entireTeam.push(internCardHtml);
         addTeamMembers();

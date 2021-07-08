@@ -10,7 +10,7 @@ function indexHTML(data) {
           <title>My Team</title>
           <link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.0/cerulean/bootstrap.css" rel="stylesheet" crossorigin="anonymous">
           <link rel="stylesheet" href="style.css">
-          <script src="https://kit.fontawesome.com/fc7567fd01.js" crossorigin="anonymous"></script>
+          <script src= "https://kit.fontawesome.com/fc7567fd01.js" crossorigin="anonymous"></script>
           <style>
               .jumbotron {
                   background-color: navy;
@@ -46,6 +46,6 @@ function indexHTML(data) {
       
       </html>
   `;
-  }
-  // This to export to thema in export
-  module.exports = indexHTML;
+}
+
+module.exports = indexHTML;
